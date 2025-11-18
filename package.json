@@ -2,10 +2,10 @@
   "name": "farming_test",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "farming.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js",
+    "start": "node farming.js",
     "build": "echo \"No build step required\""
   },
   "dependencies": {
