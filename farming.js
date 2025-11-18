@@ -373,7 +373,8 @@ app.post("/api/store", async (req, res) => {
     console.log("Batch ID:", batchId);
     res.json({
       success: true,
-      txHash: tx.hash
+      txHash: tx.hash,
+      batchId: batchId
     });
 
   } catch (err) {
